@@ -1,0 +1,13 @@
+{% extends "blog/base.html" %}
+
+{% load crispy_forms_tags %}
+{% block content %}
+
+<h1>You've Been Logged Out</h1>
+
+    <div class="border-top pt-3">
+        <small class="text-muted">Forgot Something ? <a href="{% url 'register_user'%}">Log In Again</a></small>
+    </div>
+
+
+{% endblock %}
